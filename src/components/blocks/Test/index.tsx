@@ -1,12 +1,6 @@
-import CopyButton from "../../CopyButton";
+import BlockContainer from "../../BlockContainer";
 import buttonHtml from "./test.html?raw";
 
 export default function Test() {
-  return (
-    <>
-      <CopyButton text={buttonHtml} />
-      {buttonHtml}
-      <div dangerouslySetInnerHTML={{ __html: buttonHtml }}></div>
-    </>
-  );
+  return <BlockContainer code={buttonHtml} />;
 }

@@ -6,12 +6,8 @@ function App() {
     <>
       <main className="container mt-4">
         <div className="vstack gap-3">
-          <div className="card">
-            <Test />
-          </div>
-          <div className="card">
-            <Navigation />
-          </div>
+          <Test />
+          <Navigation />
         </div>
       </main>
     </>
