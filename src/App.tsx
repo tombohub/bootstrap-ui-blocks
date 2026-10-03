@@ -2,6 +2,7 @@ import Test from "./components/blocks/Test";
 import Navigation from "./components/blocks/Navigation";
 import Alert from "./components/blocks/Alert";
 import Card1 from "./components/blocks/Card1";
+import Card2 from "./components/blocks/Card2";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Navigation />
           <Alert />
           <Card1 />
+          <Card2 />
         </div>
       </main>
     </>
