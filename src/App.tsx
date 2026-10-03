@@ -1,5 +1,6 @@
 import Test from "./components/blocks/Test";
 import Navigation from "./components/blocks/Navigation";
+import Alert from "./components/blocks/Alert";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <div className="vstack gap-3">
           <Test />
           <Navigation />
+          <Alert />
         </div>
       </main>
     </>
